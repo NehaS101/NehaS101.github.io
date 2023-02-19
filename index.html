@@ -32,40 +32,39 @@
           <li><a  href="#contact">Contact</a></li>
           <li>
             <button
-              onclick="res()"
+              onclick="resume()"
               id="but1">Resume</button>
           </li>
-          <i onclick="close()" class="fa-solid fa-xmark"></i>
+          <i onclick="closeMenu()" class="fa-solid fa-xmark"></i>
         </ul>
-        <i onclick="open()" class="faty"></i>
+        <i onclick="openMenu()" class="fa-solid fa-bars"></i>
       </nav>
     </div>
-    <div id="header">
-      <div id="home" class="container">
-        <div id="resume-d" class="header-text">
+    <div id="head">
+      <div id="home" class="cont">
+        <div  class="head-text">
           
-          <h1 id="user-detail-name">
-            Hello, I'm Neha
+          <h1 id="user">
+            Hello, I'm <span>Neha</span>
             Solanki 
           </h1>
-          <p id="user-detail-intro">Full Stack Web Developer</p>
+          <p id="user">Full Stack Web Developer</p>
          
         </div>
       </div>
     </div>
-    <div class="about section" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="about-col-1">
-            <img
-              class="home-img"
+    <div  id="about">
+      <div class="cont">
+        <div class="roy">
+          <div class="col">
+            <img style="height: 400px; width: 400px;"
               src="./docs/assets/img/My project-1 (1) (1).png"
               alt=""
             />
           </div>
-          <div class="about-col-2">
-            <h1 class="sub-title">About Me</h1>
-            <p id="user-detail-intro" style="font-size: 22px;">
+          <div class="col2">
+            <h1 class="title">About Me</h1>
+            <p  style="font-size: 22px;">
               A Self-motivated, hard-working
               & enthusiastic full-stack
               web developer. Expertise in creating customized UI designs and improving website navigation.High adaptability to learn new
@@ -73,17 +72,14 @@
               attention to details.
               
             </p>
-            <div class="tab-titles">
-              <p class="tab-links"></p>
-            </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Skills -->
     <div id="skills">
-      <div class="container">
-        <h1 class="skill-title sub-title">Skills</h1>
+      <div class="cont">
+        <h1 class="skill-title title">Skills</h1>
         <div class="skill-wrapper">
           <div class="skills-card">
             <img style="width:160px;height:110px;"
@@ -168,8 +164,8 @@
         </div>
       </div>
     </div>
-    <div class="github-content container">
-      <h1 class="sub-title">Github Stats</h1>
+    <div class="github-content cont">
+      <h1 class="title">Github Stats</h1>
       <p>
         <img
           id="github-top-langs"
@@ -197,10 +193,10 @@
  
    
     <div id="contact">
-      <div class="container">
+      <div class="cont">
         <div class="row">
           <div class="contact-left">
-            <h1 class="sub-title">Contact</h1>
+            <h1 class="title">Contact</h1>
             <p id="contact-email">
               <i class="fa-solid fa-envelope"></i>solankineha297@gmail.com
             </p>
@@ -225,15 +221,15 @@
     </div>
     <script src=""></script>
     <script>
-      function res() {
+      function resume() {
         window.open("./docs/assets/img/Neha_Solanki_Resume.pdf", "_blank");
       }
       let menu = document.getElementById("menu");
-      function open() {
+      function openMenu() {
        menu.style.right = 0;
       }
-      function close() {
-       menu.style.right = "-200px";
+      function closeMenu() {
+        menu.style.right = "-200px";
       }
       
      

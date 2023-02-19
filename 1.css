@@ -33,10 +33,10 @@ html {
   color: white;
 }
 
-#header {
+#head {
   width: 100%;
 }
-.container {
+.cont {
   padding: 10px 10%;
 }
 nav {
@@ -70,17 +70,19 @@ nav ul li a:hover::after {
   width: 100%;
   transition: 0.5s;
 }
-.header-text {
+.head-text {
   margin-top: 20%;
   font-size: 30px;
 }
-
+#user span{
+  color: rgb(255, 0, 179);
+}
 #name,
 #name:visited {
   color: #fff;
   text-decoration: none;
 }
-.header-text h1 {
+.head-text h1 {
   font-size: 60px;
   margin-top: 20px;
 }
@@ -89,26 +91,26 @@ nav ul li a:hover::after {
 #about {
   padding: 80px 0;
   color: black;
-  border:2px solid rgb(5, 142, 206);
-  box-shadow: rgba(5,142,206) 0px 5px 15px;
+  border:0px solid rgb(5, 142, 206);
   margin-top: 50px;
 }
-.row {
+.roy {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.about-col-1 {
+.col {
   flex-basis: 35%;
 }
-.about-col-1 img {
+.col img {
   width: 100%;
 }
-.about-col-2 {
+.col2 {
   flex-basis: 60%;
+  margin-top: 100px;
 }
-.sub-title {
- 
+.title {
+ color: rgb(255, 0, 179);
   font-size: 60px;
   font-weight: 600;
 }
@@ -273,7 +275,7 @@ form textarea {
   font-weight: 400;
 }
 /* CSS for Responsiveness */
-nav .faty {
+nav .fa-solid {
   display: none;
 }
 /* Code for GithUB section */
@@ -281,7 +283,7 @@ nav .faty {
   margin-top: 30px;
   border: 2px solid rgb(5, 142, 206);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgb(5, 142, 206) 0px 18px 36px -18px inset;
-  background-color: rgb(124, 181, 209);
+  background-color: rgb(159, 208, 233);
   margin-bottom: 50px;
 }
 /* .calendar.react-activity-calendar {
@@ -307,7 +309,7 @@ nav .faty {
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 700px) {
-  nav .faty {
+  nav .fa-solid {
     display: block;
     font-size: 25px;
   }
@@ -325,21 +327,21 @@ nav .faty {
     display: block;
     margin: 25px;
   }
-  nav ul .faty {
+  nav ul .fa-solid {
     position: absolute;
     top: 25px;
     left: 25px;
     cursor: pointer;
   }
-  .header-text {
+  .head-text {
     margin-top: 60%;
     font-size: 16px;
   }
-  .header-text h1 {
+  .head-text h1 {
     margin-bottom: 40px;
     font-size: 60px;
   }
-  .header-text p {
+  .head-text p {
     font-size: 40px;
   }
   .layer {
@@ -358,19 +360,19 @@ nav .faty {
 }
 
 @media only screen and (min-width: 350px) and (max-width: 499px) {
-  nav .faty {
+  nav .fa-solid {
     display: block;
     font-size: 25px;
   }
-  .header-text {
+  .head-text {
     margin-top: 60%;
     font-size: 16px;
   }
-  .header-text h1 {
+  .head-text h1 {
     margin-bottom: 40px;
     font-size: 40px;
   }
-  .header-text p {
+  .head-text p {
     font-size: 30px;
   }
   .work-list {
@@ -390,7 +392,7 @@ nav .faty {
     display: block;
     margin: 25px;
   }
-  nav ul .faty {
+  nav ul .fa-solid {
     position: absolute;
     top: 25px;
     left: 25px;
@@ -429,19 +431,19 @@ nav .faty {
   }
 }
 @media only screen and (min-width: 500px) and (max-width: 600px) {
-  nav .faty {
+  nav .fa-solid {
     display: block;
     font-size: 25px;
   }
-  .header-text {
+  .head-text {
     margin-top: 60%;
     font-size: 16px;
   }
-  .header-text h1 {
+  .head-text h1 {
     margin-bottom: 40px;
     font-size: 40px;
   }
-  .header-text p {
+  .head-text p {
     font-size: 30px;
   }
   .work-list {
@@ -461,7 +463,7 @@ nav .faty {
     display: block;
     margin: 25px;
   }
-  nav ul .faty {
+  nav ul .fa-solid {
     position: absolute;
     top: 25px;
     left: 25px;
