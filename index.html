@@ -20,28 +20,24 @@
     />
   </head>
   <body>
-    <div class="nav-wrapper">
+    <div class="nav">
       <nav id="nav-menu">
-        <h2><a id="logo" href="">Neha Solanki</a></h2>
-        <ul id="sidemenu">
-          <li><a class="nav-link home" href="#">Home</a></li>
-          <li><a class="nav-link about" href="#about">About Me</a></li>
-          <li><a class="nav-link skills" href="#skills">Skills</a></li>
-          <li><a class="nav-link projects" href="#projects">Project</a></li>
+        <h2><a id="name" href="">Neha Solanki</a></h2>
+        <ul id="menu">
+          <li><a  href="#">Home</a></li>
+          <li><a  href="#about">About Me</a></li>
+          <li><a  href="#skills">Skills</a></li>
+          <li><a  href="#projects">Project</a></li>
 
-          <li><a class="nav-link contact" href="#contact">Contact</a></li>
+          <li><a  href="#contact">Contact</a></li>
           <li>
             <button
-              onclick="resume()"
-              id="resume-button-1"
-              class="nav-link resume btn btn2"
-            >
-              Resume
-            </button>
+              onclick="res()"
+              id="but1">Resume</button>
           </li>
-          <i onclick="closeMenu()" class="fa-solid fa-xmark"></i>
+          <i onclick="close()" class="fa-solid fa-xmark"></i>
         </ul>
-        <i onclick="openMenu()" class="fa-solid fa-bars"></i>
+        <i onclick="open()" class="faty"></i>
       </nav>
     </div>
     <div id="header">
@@ -229,15 +225,15 @@
     </div>
     <script src=""></script>
     <script>
-      function resume() {
+      function res() {
         window.open("./docs/assets/img/Neha_Solanki_Resume.pdf", "_blank");
       }
-      let sidemenu = document.getElementById("sidemenu");
-      function openMenu() {
-        sidemenu.style.right = 0;
+      let menu = document.getElementById("menu");
+      function open() {
+       menu.style.right = 0;
       }
-      function closeMenu() {
-        sidemenu.style.right = "-200px";
+      function close() {
+       menu.style.right = "-200px";
       }
       
      

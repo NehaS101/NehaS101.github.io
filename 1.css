@@ -8,36 +8,31 @@
 ::-webkit-scrollbar{
   display: none;
 }
+body {
+  background: white;
+  color: black;
+}
 html {
   scroll-behavior: smooth;
 }
-.nav-wrapper {
+.nav {
   position: sticky;
   top: 0;
   background-color: black;
   color: black;
-  /* padding-left: 10px; */
   padding: 0px 4%;
   z-index: 1;
   margin-bottom: 20px;
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
-body {
-  background: white;
-  color: black;
-}
+
 #resume,
 #resume:visited {
   text-decoration: none;
   color: white;
 }
-#resume-button-2,
-#resume-button-2:visited {
-  text-decoration: none;
-  color: black;
-  margin-top: 20px;
-}
+
 #header {
   width: 100%;
 }
@@ -80,8 +75,8 @@ nav ul li a:hover::after {
   font-size: 30px;
 }
 
-#logo,
-#logo:visited {
+#name,
+#name:visited {
   color: #fff;
   text-decoration: none;
 }
@@ -95,7 +90,7 @@ nav ul li a:hover::after {
   padding: 80px 0;
   color: black;
   border:2px solid rgb(5, 142, 206);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgb(5, 142, 206) 0px 18px 36px -18px inset;
+  box-shadow: rgba(5,142,206) 0px 5px 15px;
   margin-top: 50px;
 }
 .row {
@@ -120,8 +115,7 @@ nav ul li a:hover::after {
 
 /* Portfolio */
 
-#portfolio {
-}
+
 .work-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -214,13 +208,13 @@ nav ul li a:hover::after {
   transform: scaleY(-5px);
 }
 
-.btn.btn2 {
+.btn.btn2,#but1 {
   display: inline-block;
   background-color: rgb(5, 142, 206);
   color: white;
   padding: 10px 20px;
   font-size: 18px;
-  border-radius: 10px;
+  border-radius: 8px;
   cursor: pointer;
 }
 .contact-right {
@@ -253,6 +247,8 @@ form textarea {
 /* Skill */
 #skills {
   width: 100%;
+  margin-top: 50px;
+  margin-bottom: 80px;
 }
 
 .skill-title {
@@ -277,7 +273,7 @@ form textarea {
   font-weight: 400;
 }
 /* CSS for Responsiveness */
-nav .fa-solid {
+nav .faty {
   display: none;
 }
 /* Code for GithUB section */
@@ -286,6 +282,7 @@ nav .fa-solid {
   border: 2px solid rgb(5, 142, 206);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgb(5, 142, 206) 0px 18px 36px -18px inset;
   background-color: rgb(124, 181, 209);
+  margin-bottom: 50px;
 }
 /* .calendar.react-activity-calendar {
   width: 80%;
@@ -310,7 +307,7 @@ nav .fa-solid {
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 700px) {
-  nav .fa-solid {
+  nav .faty {
     display: block;
     font-size: 25px;
   }
@@ -328,7 +325,7 @@ nav .fa-solid {
     display: block;
     margin: 25px;
   }
-  nav ul .fa-solid {
+  nav ul .faty {
     position: absolute;
     top: 25px;
     left: 25px;
@@ -361,7 +358,7 @@ nav .fa-solid {
 }
 
 @media only screen and (min-width: 350px) and (max-width: 499px) {
-  nav .fa-solid {
+  nav .faty {
     display: block;
     font-size: 25px;
   }
@@ -393,7 +390,7 @@ nav .fa-solid {
     display: block;
     margin: 25px;
   }
-  nav ul .fa-solid {
+  nav ul .faty {
     position: absolute;
     top: 25px;
     left: 25px;
@@ -432,7 +429,7 @@ nav .fa-solid {
   }
 }
 @media only screen and (min-width: 500px) and (max-width: 600px) {
-  nav .fa-solid {
+  nav .faty {
     display: block;
     font-size: 25px;
   }
@@ -464,7 +461,7 @@ nav .fa-solid {
     display: block;
     margin: 25px;
   }
-  nav ul .fa-solid {
+  nav ul .faty {
     position: absolute;
     top: 25px;
     left: 25px;
