@@ -20,16 +20,16 @@
     />
   </head>
   <body>
-    <div class="nav">
+ 
+<div class="nav">
       <nav id="nav-menu">
         <h2><a id="name" href="">Neha Solanki</a></h2>
         <ul id="menu">
-          <li><a  href="#">Home</a></li>
-          <li><a  href="#about">About Me</a></li>
-          <li><a  href="#skills">Skills</a></li>
-          <li><a  href="#projects">Project</a></li>
-
-          <li><a  href="#contact">Contact</a></li>
+          <li><a class="nav-link home" href="#">Home</a></li>
+          <li><a class="nav-link about" href="#about">About Me</a></li>
+          <li><a class="nav-link skills" href="#skills">Skills</a></li>
+          <li><a class="nav-link projects" href="#projects">Project</a></li>
+          <li><a class="nav-link contact" href="#contact">Contact</a></li>
           <li>
             <button
               onclick="resume()"
@@ -53,7 +53,7 @@
         </div>
       </div>
     </div>
-    <div  id="about">
+    <div  id="about" class="about section">
       <div class="cont">
         <div class="roy">
           <div class="col">
@@ -219,6 +219,9 @@
       </div>
      
     </div>
+    
+    <!-- nav -->
+    
     <script src=""></script>
     <script>
       function resume() {
