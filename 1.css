@@ -255,25 +255,28 @@ form textarea {
   margin-bottom: 80px;
 }
 
-.stitle {
+.skill-title {
   margin-bottom: 60px;
+  color: rgb(255, 0, 179);
+  font-size: 60px;
+  font-weight: 600;
 }
-.wrap {
+.skill-wrapper {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
 }
-.card img {
+.skills-card img {
   width: 50%;
   transition: transform 0.2s;
 }
-.card {
+.skills-card {
   text-align: center;
 }
-.card img:hover {
+.skills-card img:hover {
   transform: scale(1.2);
 }
-.card h2 {
+.skills-card h2 {
   font-weight: 400;
 }
 /* CSS for Responsiveness */
@@ -423,7 +426,7 @@ nav .fa-solid {
     width: 40px;
     height: 20px;
   }
-  .wrap {
+  .skill-wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
   .github img{
@@ -493,7 +496,7 @@ nav .fa-solid {
     width: 40px;
     height: 20px;
   }
-  .wrap {
+  .skill-wrapper {
     grid-template-columns: repeat(3, 1fr);
   }
 }
