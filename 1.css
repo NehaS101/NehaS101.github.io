@@ -2,7 +2,7 @@
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   box-sizing: border-box;
 }
 ::-webkit-scrollbar{
@@ -33,10 +33,10 @@ html {
   color: white;
 }
 
-#head {
+#header {
   width: 100%;
 }
-.cont {
+.container {
   padding: 10px 10%;
 }
 nav {
@@ -70,11 +70,11 @@ nav ul li a:hover::after {
   width: 100%;
   transition: 0.5s;
 }
-.head-text {
+.header-text {
   margin-top: 20%;
   font-size: 30px;
 }
-#user span{
+#user-detail-intro span{
   color: rgb(255, 0, 179);
 }
 #name,
@@ -82,7 +82,7 @@ nav ul li a:hover::after {
   color: #fff;
   text-decoration: none;
 }
-.head-text h1 {
+.header-text h1 {
   font-size: 60px;
   margin-top: 20px;
 }
@@ -95,18 +95,18 @@ nav ul li a:hover::after {
   margin-top: 50px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0,0,0,0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.roy {
+.row {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.col {
+.about-col-1 {
   flex-basis: 35%;
 }
-.col img {
+.about-col-1 img {
   width: 100%;
 }
-.col2 {
+.about-col-2 {
   flex-basis: 60%;
   margin-top: 100px;
 }
@@ -211,7 +211,7 @@ nav ul li a:hover::after {
   transform: scaleY(-5px);
 }
 
-.btn.btn2,#but1 {
+#resume-button-2,#resume-button-1 {
   display: inline-block;
   background-color: rgb(5, 142, 206);
   color: white;
@@ -219,6 +219,7 @@ nav ul li a:hover::after {
   font-size: 18px;
   border-radius: 8px;
   cursor: pointer;
+  border: none;
 }
 .contact-right {
   width: 100%;
@@ -332,15 +333,15 @@ nav .fa-solid {
     left: 25px;
     cursor: pointer;
   }
-  .head-text {
+  .header-text {
     margin-top: 60%;
     font-size: 16px;
   }
-  .head-text h1 {
+  .header-text h1 {
     margin-bottom: 40px;
     font-size: 60px;
   }
-  .head-text p {
+  .header-text p {
     font-size: 40px;
   }
   .layer {
@@ -363,15 +364,15 @@ nav .fa-solid {
     display: block;
     font-size: 25px;
   }
-  .head-text {
+  .header-text {
     margin-top: 60%;
     font-size: 16px;
   }
-  .head-text h1 {
+  .header-text h1 {
     margin-bottom: 40px;
     font-size: 40px;
   }
-  .head-text p {
+  .header-text p {
     font-size: 30px;
   }
   .work-list {
@@ -400,11 +401,11 @@ nav .fa-solid {
   .title {
     font-size: 40px;
   }
-  .col,
-  .col2 {
+  .about-col-1,
+  .about-col-2 {
     flex-basis: 100%;
   }
-  .col2,
+  .about-col-2,
   .copyright {
     font-size: 14px;
   }
@@ -434,15 +435,15 @@ nav .fa-solid {
     display: block;
     font-size: 25px;
   }
-  .head-text {
+  .header-text {
     margin-top: 60%;
     font-size: 16px;
   }
-  .head-text h1 {
+  .header-text h1 {
     margin-bottom: 40px;
     font-size: 40px;
   }
-  .head-text p {
+  .header-text p {
     font-size: 30px;
   }
   .work-list {
@@ -471,11 +472,11 @@ nav .fa-solid {
   .title {
     font-size: 40px;
   }
-  .col,
-  .col2 {
+  .about-col-1,
+  .about-col-2 {
     flex-basis: 100%;
   }
-  .col2,
+  .about-col-2,
   .copyright {
     font-size: 14px;
   }

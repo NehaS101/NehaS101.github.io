@@ -7,13 +7,7 @@
     <title>Neha Solanki-Portfolio</title>
     <link rel="stylesheet" href="./1.css" />
     <link
-      rel="stylesheet"
-      href=""
-    />
-
-
-    
-    <link
+      rel="stylesheet"href=""/><link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
@@ -35,36 +29,39 @@
           <li>
             <button
               onclick="resume()"
-              id="but1">Resume</button>
+              id="resume-button-1"  class="resume-link-2">Resume</button>
           </li>
           <i onclick="closeMenu()" class="fa-solid fa-xmark"></i>
         </ul>
         <i onclick="openMenu()" class="fa-solid fa-bars"></i>
       </nav>
     </div>
-    <div id="head">
-      <div id="home" class="cont">
-        <div  class="head-text">
+    <div id="header">
+      <div id="home" class="container">
+        <div id="resume-d" class="header-text">
           
-          <h1 id="user">
+          <h1 id="user-detail-intro">
             Hello, I'm <span>Neha</span>
             Solanki 
           </h1>
-          <p id="user">Full Stack Web Developer</p>
-         
+          <p id="user-detail-name">Full Stack Web Developer</p>
+          <button
+          onclick="resume()"
+          id="resume-button-2"  class="resume-link-2">Resume</button>
         </div>
       </div>
     </div>
+    <!-- about -->
     <div  id="about" class="about section">
-      <div class="cont">
-        <div class="roy">
-          <div class="col">
-            <img style="height: 400px; width: 400px;"
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img class="home-img" style="height: 400px; width: 400px;"
               src="./docs/assets/img/My project-1 (1) (1).png"
               alt=""
             />
           </div>
-          <div class="col2">
+          <div class="about-col-2">
             <h1 class="title">About Me</h1>
             <p  style="font-size: 22px;">
               A Self-motivated, hard-working
