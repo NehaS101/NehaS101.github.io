@@ -284,7 +284,7 @@ nav .fa-solid {
   display: none;
 }
 /* Code for GithUB section */
-.github {
+.github-content {
   margin-top: 30px;
   border: 2px solid rgb(5, 142, 206);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgb(5, 142, 206) 0px 18px 36px -18px inset;
@@ -292,7 +292,7 @@ nav .fa-solid {
   margin-bottom: 50px;
 }
 
-.github img {
+.github-content img {
   /* display: block; */
   margin-bottom: 20px;
   background-color: #f1d65a;
@@ -429,7 +429,7 @@ nav .fa-solid {
   .skill-wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
-  .github img{
+  .github-content img{
     width: 100%;
   }
 }
