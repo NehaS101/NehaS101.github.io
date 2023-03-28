@@ -165,7 +165,7 @@ nav ul li a:hover::after {
 }
 .layer > .deploy > a {
   margin-top: 10px;
-  color: rgb(5, 142, 206);
+  color: #860c10;
   text-decoration: none;
   font-size: 18px;
   line-height: 60px;
