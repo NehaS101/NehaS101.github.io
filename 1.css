@@ -65,7 +65,7 @@ nav ul li a::after {
   content: " ";
   width: 0;
   height: 3px;
-  background: rgb(5, 142, 206);
+  background: #c72b30;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -95,7 +95,7 @@ nav ul li a:hover::after {
 #about {
   padding: 80px 0;
   color: black;
-  border:1px solid rgb(5, 142, 206);
+  border:1px solid grey;
   margin-top: 50px;
   /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0,0,0,0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
 }
@@ -196,7 +196,7 @@ nav ul li a:hover::after {
   margin-top: 30px;
 }
 .left p i {
-  color: rgb(5, 142, 206);
+  color: #c72b30;
   margin-right: 15px;
 }
 .icon {
@@ -211,13 +211,13 @@ nav ul li a:hover::after {
   transition: transform 0.5s;
 }
 .icon a:hover {
-  color: rgb(5, 142, 206);
+  color: #c72b30;
   transform: scaleY(-5px);
 }
 
 #resume-button-2,#resume-button-1 {
   display: inline-block;
-  background-color: rgb(5, 142, 206);
+  background-color: #c72b30;
   color: white;
   padding: 10px 20px;
   font-size: 18px;
@@ -290,9 +290,9 @@ nav .fa-solid {
 /* Code for GithUB section */
 .github-content {
   margin-top: 30px;
-  border: 2px solid rgb(5, 142, 206);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgb(5, 142, 206) 0px 18px 36px -18px inset;
-  background-color: rgb(159, 208, 233);
+  border: 2px solid #f09699;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, #F09699 0px 18px 36px -18px inset;
+  background-color: #f5afb1;
   margin-bottom: 50px;
 }
 
@@ -321,7 +321,7 @@ nav .fa-solid {
     font-size: 25px;
   }
   nav ul {
-    background: rgb(5, 142, 206);
+    background: #c72b30;
     position: fixed;
     top: 0;
     right: -200px;
@@ -386,7 +386,7 @@ nav .fa-solid {
     grid-template-columns: 1fr;
   }
   nav ul {
-    background:rgb(5, 142, 206);
+    background:#c72b30;
     position: fixed;
     top: 0;
     right: -200px;
@@ -457,7 +457,7 @@ nav .fa-solid {
     grid-template-columns: 1fr;
   }
   nav ul {
-    background: rgb(5, 142, 206);
+    background: #c72b30;
     position: fixed;
     top: 0;
     right: -200px;
@@ -512,6 +512,7 @@ nav .fa-solid {
   grid-template-columns: repeat(2,2fr);
   gap: 30px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .project-card{
@@ -537,4 +538,6 @@ nav .fa-solid {
 
 .project-title{
   margin-right: 10px;
+  color: #860c10;
+  font-weight: 600;
 }
