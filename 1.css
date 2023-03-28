@@ -516,4 +516,20 @@ nav .fa-solid {
 
 #main{
   display: flex;
+  padding-left: 20px;
+  font-size: 35px;
+  padding-top: 20px;
+}
+.project-description,.project-tech-stack{
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 22px;
+}
+
+.project-github-link,.project-deployed-link{
+  margin-left: 10px;
+}
+
+.project-title{
+  margin-right: 10px;
 }
