@@ -364,6 +364,9 @@ nav .fa-solid {
   .work-list {
     grid-template-columns: 1fr;
   }
+  #pro{
+    display: grid;
+  }
   .cards{
     display: grid;
     grid-template-columns: repeat(1,1fr);
