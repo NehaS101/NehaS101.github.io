@@ -649,3 +649,45 @@ nav .fa-solid {
   border-radius: 5px;
   border: 2.2px solid #704b67;
 }
+
+@media only screen and (min-width: 350px) and (max-width: 499px){
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 700px){
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1200px){
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap:25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .project-card>img{
+    width: 1200px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
