@@ -650,27 +650,41 @@ nav .fa-solid {
   border: 2.2px solid #704b67;
 }
 #project-img{
-  height: 500px;width: 800px;border: 1px solid grey;
+  height: 500px;
+  width: 800px;
+  border: 1px solid grey;
 }
 @media only screen and (min-width: 350px) and (max-width: 499px){
   .cards {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(1, 0.3fr);
+    gap: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+  #project-img{
+    height: 300px;
+    width: 400px;
+    border: 1px solid grey;
   }
 }
 @media only screen and (min-width: 500px) and (max-width: 700px){
   .cards {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 0.5fr);
     gap: 10px;
     margin-top: 30px;
-    margin-bottom: 30px;
+   
+   
   }
+  #project-img{
+    height: 300px;
+    width: 500px;
+    border: 1px solid grey;
+  }
+ 
 }
-@media only screen and (min-width: 601px) and (max-width: 1200px){
+@media only screen and (min-width: 701px) and (max-width: 1200px){
   .cards {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
