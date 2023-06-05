@@ -508,9 +508,7 @@ nav .fa-solid {
     height: 20px;
   }
 
-  .skill-wrapper {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  
 
   .github-content img {
     width: 100%;
@@ -593,9 +591,7 @@ nav .fa-solid {
     height: 20px;
   }
 
-  .skill-wrapper {
-    grid-template-columns: repeat(3, 1fr);
-  }
+  
 }
 
 /* //projects */
@@ -667,6 +663,9 @@ nav .fa-solid {
     width: 400px;
     border: 1px solid grey;
   }
+  .skill-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media only screen and (min-width: 500px) and (max-width: 700px){
   .cards {
@@ -682,6 +681,9 @@ nav .fa-solid {
     width: 500px;
     border: 1px solid grey;
   }
+  .skill-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
  
 }
 @media only screen and (min-width: 701px) and (max-width: 1200px){
@@ -695,6 +697,10 @@ nav .fa-solid {
   #project-img{
     width: 1000px;
   }
+  .skill-wrapper {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
 }
 
 
