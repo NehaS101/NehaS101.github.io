@@ -649,7 +649,9 @@ nav .fa-solid {
   border-radius: 5px;
   border: 2.2px solid #704b67;
 }
-
+#project-img{
+  height: 500px;width: 800px;border: 1px solid grey;
+}
 @media only screen and (min-width: 350px) and (max-width: 499px){
   .cards {
     display: grid;
@@ -676,8 +678,8 @@ nav .fa-solid {
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  .project-card>img{
-    width: 1200px;
+  #project-img{
+    width: 1000px;
   }
 }
 
